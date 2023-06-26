@@ -1,0 +1,40 @@
+.club {
+  width: 100%;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  padding: 0 25px;
+  border-bottom: 1px solid #f3f3f3;
+}
+
+.club__content {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--dark-color);
+}
+
+.club__info {
+  width: 48%;
+  display: flex;
+  align-items: center;
+  margin: 0 25px;
+}
+
+.club__info > img {
+  height: 32px;
+}
+
+.club__info > h4 {
+  margin-left: 20px;
+}
+
+.club__points {
+  display: flex;
+}
+
+.club__points > h4 {
+  width: 52px;
+  text-align: center;
+}
